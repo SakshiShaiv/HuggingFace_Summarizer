@@ -1,5 +1,3 @@
-##fastapi
-
 from fastapi import FastAPI, Request
 from pydantic import BaseModel  ##to validate the requests
 from transformers import T5Tokenizer, T5ForConditionalGeneration
