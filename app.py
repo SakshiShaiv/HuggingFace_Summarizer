@@ -13,7 +13,7 @@ app = FastAPI(title="Text Summarization APP", description="This is a text summar
 
 
 
-model= T5ForConditionalGeneration.from_pretrained("./final_model")
+model= T5ForConditionalGeneration.from_pretrained("./final_model") #load weights
 tokenizer= T5Tokenizer.from_pretrained("./final_model")
 
 
